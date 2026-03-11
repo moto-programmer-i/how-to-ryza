@@ -1,5 +1,11 @@
 img {
-    max-width: 60vw;
+    max-width: calc(100vw - 20px);
+}
+/* スマホ */
+@media screen and (max-width: 1000px) {
+  img {
+    max-width: 1000px;
+  }
 }
 
 footer {
